@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input, textarea,button{
+    border: none;
+    outline: none;
+}
+i{
+    font-style: normal;
+}
+.login{
+    width: 7.5rem;
+    height: 13.34rem;
+    background: #e1bdbd;
+}
+.login  .title{
+    width: 100%;
+    height: 0.88rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login  .title a .left{
+    width: 1.54rem;
+    height: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.login  .title a .left i{
+    font-size: 0.4rem;
+    color: white;
+}
+.login  .title a .right{
+    width: 1.54rem;
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login  .title a .right i{
+    font-size: 0.3rem;
+    color: white;
+
+}
+.login  .title a .right span{
+    font-size: 0.36rem;
+    color: white;
+}
+.login .note{
+    width: 100%;
+    height: 2.4rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    line-height: 2.4rem;
+    font-size: 0.8rem;
+    color: white;
+}
+.login .num{
+    width: 100%;
+    height: 0.44rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    font-size: 0.4rem;
+    line-height: 0.44rem;
+    color: white;
+}
+.login .number{
+    width: 100%;
+    height: 1.82rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.login .number .shuru{
+    width: 7rem;
+    height: 90%;
+    border-bottom: 0.02rem solid #71d7c9;
+
+}
+.login .number .shu{
+    width: 1.3rem;
+    height: 0.88rem;
+    border-radius: 0.1rem;
+    background: rgba(255,255,255,0.4);
+    position: absolute;
+    left:0.28rem;
+    top:0.56rem;
+    line-height: 0.88rem;
+    text-align: center;
+    font-size: 0.4rem;
+    color: white;
+}
+
+.login .sryzm{
+    width: 100%;
+    height: 0.44rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    font-size: 0.4rem;
+    line-height: 0.44rem;
+    color: white;
+}
+.login .yzm{
+    width: 100%;
+    height: 1.82rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.login .yzm .box{
+    width: 7rem;
+    height: 90%;
+    border-bottom: 0.02rem solid #71d7c9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.login .yzm .box .text{
+    width: 2.96rem;
+    height: 1rem;
+    border: 0.02rem solid white;
+    border-radius: 1rem;
+    line-height: 0.88rem;
+    text-align: center;
+    font-size: 0.4rem;
+    color: white;
+}
+.login .he{
+    width: 7rem;
+    height: 1rem;
+    margin: 0.7rem auto;
+    background: white;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.4rem;
+    color: #E1BDBD;
+}
+.login .di{
+    width: 100%;
+    height: 2rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.login .di .zuo{
+    width: 50%;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login .di .zuo a i{
+    font-size: 1.4rem;
+    color: #2ac8ef;
+}
+.login .di .zuo1 a i{
+    color: #37cc3d;
+}
+.login .di .zuo  p{
+    font-size: 0.3rem;
+    color: white;
+}
